@@ -136,11 +136,27 @@ body {
 
 }
 
-
-.nav1 { margin-left: 50px; }
+@media(min-width: 768px) {
+  .nav1 { margin-left: 50px; }
+}
 .navbar-default {
     background-color: #fff;
     border-color: #e7e7e7;
 }
 
+.panel-default>.panel-heading { background-color: #fff; }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #0089bd;
+  background-color: transparent;
+}
+
+.nav-pills>li>a {
+  color: #a5a5a5;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color:transparent;
+  color: #ccc;
 }
